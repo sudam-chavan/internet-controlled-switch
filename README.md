@@ -4,7 +4,7 @@
   
 ## How to use ?
   - Sign up to Artik cloud console and create device type and add manifest to it. Below is the manifest json from my Artik cloud console.
-    You can find step by step guid about manifest [here](https://developer.artik.cloud/documentation/introduction/the-manifest.html)
+    You can find step by step guide about manifest [here](https://developer.artik.cloud/documentation/introduction/the-manifest.html)
 ```json
     {
       "actions": [

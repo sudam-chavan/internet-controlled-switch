@@ -36,7 +36,7 @@
     "messageFormat": "json"
   }
 ```
- - Clone project and edit device id and device token fields in arduino sketch as well as android code.
+ - Clone project and edit device id and device token fields in arduino sketch as well as in android code.
   
 ## References
  - [Introduction to Artik cloud](https://developer.artik.cloud/documentation/introduction/)

@@ -27,7 +27,8 @@ public class ArtikCloudHelper {
     private static final String ARTIK_DEVICE_TOKEN = "<device token>";
 
     /**
-     * Following are the field and actions from device manifest on Artik cloud console.
+     * Below are the field and actions from Artik cloud device manifest. 
+     * Change these according to your device manifest.
      */
     private static final String DEVICE_STATE_FIELD = "state";
     public static final String ACTION_ON = "setOn";

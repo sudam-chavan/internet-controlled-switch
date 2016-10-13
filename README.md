@@ -1,6 +1,6 @@
 # Internet controlled switch
-  This project allows you to control any electric appliance over the internet using ESP8266 NodeMcu and android phone.
-  It uses Samsung Artik cloud API to exchange messages over internet.
+  This project allows you to control any electric appliance over the internet using ESP8266 NodeMcu and an android phone.
+  It uses Samsung Artik cloud API to exchange messages over the internet.
   
 ## How to use ?
   - Sign up to Artik cloud console and create device type and add manifest to it. Below is the manifest json from my Artik cloud console.

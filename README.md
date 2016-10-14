@@ -3,8 +3,9 @@
   It uses Samsung Artik cloud API to exchange messages over the internet.
   
 ## How to use ?
-  - Sign up to Artik cloud console and create device type and add manifest to it. Below is the manifest json from my Artik cloud console.
-    You can find step by step guide about manifest [here](https://developer.artik.cloud/documentation/introduction/the-manifest.html)
+  - Sign up to Artik cloud console and create device type. Note down the "device id" and "device token" for the device that you just created. We will need those for arduino and android programs.
+  - After device is created, you will also need to add manifest to it. You can find step by step guide about manifest [here](https://developer.artik.cloud/documentation/introduction/the-manifest.html). 
+  - Below is a sample manifest from my Artik cloud console.
 ```json
     {
       "actions": [
@@ -36,10 +37,13 @@
     "messageFormat": "json"
   }
 ```
- - Make sure you have updated device id and device token fields in arduino sketch as well as in android code.
- - Make connections like below schematic and you are good to go :)
- 
+ - After cloning this project, make sure you have updated device id and device token fields in arduino sketch as well as in an android code. 
+ - Finally, connect all components as shown in below image and power it up.
+
  ![Alt text](images/connections.jpg?raw=true "Connections schematic")
+ 
+
+Thats it!!!! Once the status LED connected to ESP8266 glows, you can use android app to control the relay(to which you can connect any electric appliance) connected to it from anywhere in the world.
   
 ## References
  - [Introduction to Artik cloud](https://developer.artik.cloud/documentation/introduction/)

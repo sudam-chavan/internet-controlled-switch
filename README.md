@@ -36,7 +36,10 @@
     "messageFormat": "json"
   }
 ```
- - Clone project and edit device id and device token fields in arduino sketch as well as in android code.
+ - Make sure you have updated device id and device token fields in arduino sketch as well as in android code.
+ - Make connections like below schematic and you are good to go :)
+ 
+ ![Alt text](images/connections.jpg?raw=true "Connections schematic")
   
 ## References
  - [Introduction to Artik cloud](https://developer.artik.cloud/documentation/introduction/)

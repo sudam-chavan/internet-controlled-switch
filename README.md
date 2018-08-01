@@ -1,4 +1,4 @@
-# Internet controlled switch
+# Internet controlled switch(IOT)
   This project allows you to control any electric appliance over the internet using ESP8266 NodeMcu and an android phone.
   It uses Samsung Artik cloud API to exchange messages over the internet.
   
